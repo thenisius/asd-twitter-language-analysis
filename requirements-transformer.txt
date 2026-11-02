@@ -1,0 +1,8 @@
+-r requirements-eval.txt
+# PyTorch 2.11.0+cu130; match the experiment configuration.
+torch==2.11.0+cu130
+--extra-index-url https://download.pytorch.org/whl/cu130
+transformers==4.57.1
+sentencepiece==0.2.2
+emoji==2.16.0
+psutil

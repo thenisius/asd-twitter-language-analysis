@@ -1,0 +1,8 @@
+-r requirements-eval.txt
+# NLP/statistics versions were not fully recorded in the source environment.
+# Match the feature-extraction environment before optional recomputation.
+scipy
+statsmodels
+textblob
+textstat
+nltk
